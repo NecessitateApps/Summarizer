@@ -1,12 +1,6 @@
 from flask import Flask, jsonify, request
 import requests
-from sumy.parsers.html import HtmlParser
-from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lex_rank import LexRankSummarizer
-from gensim.summarization import keywords
-from collections import Counter
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 import string
 import nltk
 from goose3 import Goose
@@ -48,7 +42,6 @@ def summarize(url):
     summary = ' '.join(summary_sentences)
 
     return summary
-    # print('Summary:', summary)
 
 def get_topic(url):
     g = Goose()
@@ -101,7 +94,6 @@ def make_json():
 
     return final_dict
 
-# print(make_json())
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
