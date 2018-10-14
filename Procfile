@@ -1,1 +1,2 @@
-worker: node main.js
+web: gunicorn app:app
+
