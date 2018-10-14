@@ -57,6 +57,7 @@ def get_topic(url):
     stopword = set(stopwords.words("english"))
     index = 0
     punctuations = string.punctuation
+    fleece = "Other"
     for i in intersect:
         if i not in stopword and i not in punctuations:
             fleece = (intersect[index])
