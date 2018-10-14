@@ -1,9 +1,10 @@
-from sumy.parsers.plaintext import PlaintextParser
+# from sumy.parsers.plaintext import PlaintextParser
+from sumy.parsers.html import HtmlParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
-file = "bbc/article.txt"
-parser = PlaintextParser.from_file(file, Tokenizer("english"))
+url = 'https://www.cnn.com/2018/10/10/politics/steele-dossier-letter/index.html'
+parser = HtmlParser.from_url(url, Tokenizer("english"))
 summarizer = LexRankSummarizer()
 
 summary = summarizer(parser.document, 3)
