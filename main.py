@@ -57,14 +57,12 @@ def get_topic(url):
     stopword = set(stopwords.words("english"))
     index = 0
     punctuations = string.punctuation
-    fleece = "Other"
     for i in intersect:
         if i not in stopword and i not in punctuations:
-            fleece = (intersect[index])
-            break
+            return intersect[index].capitalize()
         else:
             index += 1
-    return fleece.capitalize()
+    return 'Other'
 
 
 def make_json():
