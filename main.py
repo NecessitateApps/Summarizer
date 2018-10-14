@@ -53,21 +53,21 @@ def summarize(url):
 def get_topic(url):
     g = Goose()
     article = g.extract(url=url)
-    title = article.title.upper()
     clean = article.cleaned_text
     rando = '’' + 'The' + '”' +'“' +'Â' + 'â'
-    clean_lower = clean.lower()
 
     stop_words = set(stopwords.words("english"))
     word_tokens = word_tokenize(clean)
-    filtered_sentence = [w for w in word_tokens if not w in stop_words]
     filtered_sentence = ""
     for w in word_tokens:
         if w not in stop_words and w not in string.punctuation and w not in rando:
             filtered_sentence += (str(w) + " ")
     final_count_words = Counter(filtered_sentence.split())
+    assorted_values = sorted(final_count_words.items(), key=lambda x: x[1], reverse=True)
+    print(assorted_values)
+    topic = assorted_values[0][0]
 
-    return final_count_words
+    return topic
     # print(final_count_words)
 
 
@@ -99,16 +99,16 @@ def make_json():
 
     return final_dict
 
-
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        some_json = request.get_json()
-        return jsonify({'you sent': some_json}), 201
-    else:
-        finished_dict = make_json()
-        return jsonify(finished_dict)
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+make_json()
+# @app.route('/', methods=['GET', 'POST'])
+# def index():
+#     if request.method == 'POST':
+#         some_json = request.get_json()
+#         return jsonify({'you sent': some_json}), 201
+#     else:
+#         finished_dict = make_json()
+#         return jsonify(finished_dict)
+#
+#
+# if __name__ == '__main__':
+#     app.run(debug=True)

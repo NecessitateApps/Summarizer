@@ -3,68 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7245752e-f47c-4739-83cc-d18dca67fbd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/pbr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.5.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests-2.17.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/__version__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/adapters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/packages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/sessions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/status_codes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/requests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3-1.21.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/socks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/fields.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/filepost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/poolmanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/retry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/selectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/ssl_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/wait.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="450" />
+          <entry key="py" value="479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="450" />
+          <entry key="Python" value="479" />
         </counts>
       </usages-collector>
     </session>
@@ -109,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="261">
+              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -283,12 +221,12 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.24324325" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49852508" visible="true" weight="0.24324325" />
       <window_info id="Structure" order="1" sideWeight="0.5014749" side_tool="true" weight="0.24324325" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="261">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
