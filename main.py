@@ -52,23 +52,25 @@ def summarize(url):
 
 def get_topic(url):
     g = Goose()
-    article = g.extract(url=url)
-    clean = article.cleaned_text
-    rando = '’' + 'The' + '”' +'“' +'Â' + 'â'
-
-    stop_words = set(stopwords.words("english"))
-    word_tokens = word_tokenize(clean)
-    filtered_sentence = ""
-    for w in word_tokens:
-        if w not in stop_words and w not in string.punctuation and w not in rando:
-            filtered_sentence += (str(w) + " ")
-    final_count_words = Counter(filtered_sentence.split())
-    assorted_values = sorted(final_count_words.items(), key=lambda x: x[1], reverse=True)
-    print(assorted_values)
-    topic = assorted_values[0][0]
-
-    return topic
-    # print(final_count_words)
+    article = g.extract(url)
+    title = article.title
+    description = article.cleaned_text
+    token_title = nltk.word_tokenize(title)
+    descrip_token = nltk.word_tokenize(description)
+    descrip_set = set(descrip_token)
+    title_set = set(token_title)
+    intersect = descrip_set.intersection(title_set)
+    intersect = list(intersect)
+    stopword = set(stopwords.words("english"))
+    index = 0
+    punctuations = string.punctuation
+    for i in intersect:
+        if i not in stopword and i not in punctuations:
+            fleece = (intersect[index])
+            break
+        else:
+            index += 1
+    return fleece
 
 
 def make_json():
@@ -99,16 +101,16 @@ def make_json():
 
     return final_dict
 
-make_json()
-# @app.route('/', methods=['GET', 'POST'])
-# def index():
-#     if request.method == 'POST':
-#         some_json = request.get_json()
-#         return jsonify({'you sent': some_json}), 201
-#     else:
-#         finished_dict = make_json()
-#         return jsonify(finished_dict)
-#
-#
-# if __name__ == '__main__':
-#     app.run(debug=True)
+# print(make_json())
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        some_json = request.get_json()
+        return jsonify({'you sent': some_json}), 201
+    else:
+        finished_dict = make_json()
+        return jsonify(finished_dict)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
