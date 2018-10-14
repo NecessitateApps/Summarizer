@@ -64,7 +64,7 @@ def get_topic(url):
             break
         else:
             index += 1
-    return fleece.capitalize()
+    return fleece
 
 
 def make_json():
