@@ -59,7 +59,7 @@ def get_topic(url):
     punctuations = string.punctuation
     for i in intersect:
         if i not in stopword and i not in punctuations:
-            return intersect[index].capitalize()
+            return intersect[index]
         else:
             index += 1
     return 'Other'
